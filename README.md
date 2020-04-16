@@ -6,7 +6,7 @@ Code Examples
 Blog
 
 http://psy-lob-saw.blogspot.com/2013/03/single-producerconsumer-lock-free-queue.html
-
+https://mechanical-sympathy.blogspot.com/2011/07/false-sharing.html
 Cache lines size 64 byte.
 
 
@@ -19,4 +19,4 @@ If two threads access cache line 1 for accessing Object 1 and Object 2,one of th
 
 If the objects are padded (64 bytes.) Then there is no need to wait for the ownership of the cache line,since Objects are in the different cache line.
 
-Its Synchronisation in kind in hardware level.
+Its Synchronisation  kind in hardware level.
